@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    button {
+      display: none;
+    }
+
+    a,
+    a:visited {
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+
+
+    <header>
+      <img src="images/tak.png.png" alt="chef">
+      <h1 class="tak"> <a> Tak for dine ordre! </a> </h1>
+      <div class="tak-button">
+        <a class="button" href="index.html">Tilbage til start</a>
+      </div>
+
+    </header>
+
+    <section class="table-section">
+
+
+      <div class="emerald">Table <span id="tblNo"></span></div>
+      <div id="showOrder" class="emerald"></div>
+
+    </section>
+  </main>
+
+
+
+  <script>
+    // date
+    d = new Date()
+
+    // random table number
+    tblNo.innerHTML = Math.floor(Math.random() * 15) + 1
+
+    // the order receipt
+    showOrder.innerHTML = d + '<br>' + sessionStorage.getItem("yourOrders")
+  </script>
+
+</body>
+
+</html>

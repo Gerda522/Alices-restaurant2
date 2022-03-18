@@ -1,0 +1,318 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 175%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#wrap {
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  color: black;
+}
+
+.main-flex {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../images/alicesforside5.png);
+  background-size: cover;
+  background: white;
+}
+
+.table-section {
+  background-color: white;
+}
+
+.tak a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+header img {
+  width: 200px;
+}
+
+.tak-button {
+  margin: 0.5em;
+  margin-bottom: 2em;
+  white-space: nowrap;
+  width: 250px;
+  text-decoration: none;
+  padding: 6px 9px;
+  background: #ee0020;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+}
+
+main {
+  background-image: url(../images/alicesforside5.png);
+  background-size: cover;
+}
+
+main>* {
+  padding: 23px;
+}
+
+#carte {
+  width: 60%;
+}
+
+.carte {
+  font-size: 2em;
+}
+
+#orders {
+  background-color: white;
+  width: 33%;
+}
+
+.aDish {
+  padding: 20px;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  align-items: center;
+  background-color: #f3f3f3a0;
+  border-radius: 30px;
+}
+
+.aDish2 {
+  padding: 20px;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  align-items: center;
+  background-color: #f3f3f3a0;
+  border-radius: 30px;
+}
+
+.aDish3 {
+  padding: 20px;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  align-items: center;
+  background-color: #f3f3f3a0;
+  border-radius: 30px;
+}
+
+.aDish img {
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.aDish2 img {
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.aDish3 img {
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.dishes {
+  display: flex;
+  flex-direction: row;
+}
+
+#bill {
+  display: flex;
+}
+
+.button1 {
+  color: #fff;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.buy-button {
+  margin: 0.5em;
+  white-space: nowrap;
+  width: 100px;
+  text-decoration: none;
+  padding: 3px 5px;
+  background: #ee0020;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+}
+
+.buy {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tid {
+  background: #f3f3f3a0;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.tidtekst {
+  font-size: 1em;
+  margin: 10px;
+  align-items: center;
+}
+
+.card {
+  background: linear-gradient(0deg, rgba(138, 176, 126, 1) 0%, rgba(151, 163, 210, 1) 100%);
+  padding: 4em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 300px;
+  height: 400px;
+  margin: 3em;
+}
+
+h1.temp {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.sprog-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.forside {
+  background-image: url(../images/alicesforside5.png);
+  background-size: cover;
+}
+
+.forside-box {}
+
+.sprog-button {
+  width: 175px
+}
+
+.sprog {
+  display: flex;
+  flex-direction: row;
+  gap: 75%;
+  padding: 2em;
+}
+
+.forside2-box {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.forside h1 {
+  font-size: 3em;
+}
+
+.Aarhus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+.container {
+  margin: 3em;
+}
+
+#map {
+  width: 700px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+#marker {
+  background-image: url(../images/lokation3.png);
+  background-size: cover;
+  width: 50px;
+  height: 68px;
+  cursor: pointer;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.tekst-button {
+  white-space: nowrap;
+  width: 175px;
+  text-decoration: none;
+  padding: 6px 9px;
+  background: #ee0020;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+}
+
+a#button1 {
+  color: white;
+  text-decoration: none;
+}
+
+button.buy-button {
+  text-decoration: none;
+  border: none;
+}
+
+.bestil {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  text-align: center;
+  align-items: center;
+}
+
+.button {
+  border: none;
+  text-decoration: none;
+}
+
+.button1 {
+  color: #fff;
+  font-size: 1.3rem;
+  border: none;
+  text-decoration: none;
+}

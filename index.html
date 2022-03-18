@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alices Restaurant</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/0bdbe266da.js" crossorigin="anonymous"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+
+<body>
+
+  <section class="forside">
+    <div class="sprog">
+
+      <div class="tid">
+        <h2 class="tidtekst">
+          <div id="dato"></div>
+          <div id="time"></div>
+        </h2>
+      </div>
+      <div class="sprog-flex">
+        <button class="sprog-button" onclick="Da()">Dasnk</button>
+        <button class="sprog-button" onclick="En()">English</button>
+      </div>
+    </div>
+
+    <div class="forside-box">
+
+
+    </div>
+
+    <div class="forside2-box">
+      <h1 id="vel">Velkommen til Alices Restaurant</h1>
+      <div class="bestil">
+        <h2 id="tryk">Tryk her for at se og bestille menu!</h2>
+        <div class="tekst-button">
+          <a class id="button1" href="bestil.html">Se menu</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="Aarhus">
+
+
+    <div class="card">
+      <div class="weather">
+        <h2 class id="city">Vejret i Aarhus</h2>
+        <h1 class="temp">51°C </h1>
+        <div class="flex">
+          <img src="https://openweathermap.org/img/wn/04n.png" + icon + "@2x.png" alt="" class="icon">
+          <div class="description">Sunny</div>
+        </div>
+        <div class="humidity">Humidity: 60%</div>
+        <div class="wind">Wind speed: 6.2 km/h</div>
+      </div>
+
+    </div>
+    <div class="container">
+      <div id="map"></div>
+    </div>
+  </section>
+
+</body>
+
+<!-- SCRIPTS -->
+<script src="js/forside-js.js"></script>
+
+</html>
